@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+}
+.cont .head_nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 950px;
+    background-color: #2B3844;
+    height: 80px;
+    max-width: 1339px;
+    align-items: center;
+}
+.head_nav h3{
+    color: white;
+    font-size: 24px;
+}
+.head_nav a{
+    color: white;
+    font-size: 16px;  
+}
+
+.box{
+    width: 267px;
+height: 250px;
+background-color:#2B3844 ;
+margin: auto;
+
+}
+.box img{
+    width: 267px;
+    height: 160px;
+}
+.inp{
+    display: flex;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.inp input{
+    width: 480px;
+    padding-left: 50px;
+    height: 40px;
+    
+
+    background-color: #2B3844;
+}
+.inp img{
+    z-index: 3000;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+}
+
+h3{
+    
+    font-family: 'Nunito Sans';
+font-size: 18px;
+font-weight: 800;
+line-height: 26px;
+text-align: center;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+/* width: 77px; */
+/* height: 26px; */
+
+}
+
+.head_main{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 60px;
+    
+}
+body{
+     background-color: #202C36;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+@media( max-width:1200px){
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media( max-width:1024px){
+     .box{
+        max-width: 768px;
+        background-color: #2B3844;
+
+    }
+}
+
+@media( max-width:768px){
+    .container{
+        max-width: 576px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cont{
+   display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: auto;
+}
+@media( max-width:1200px){
+    .cont{
+        max-width: 1024px;
+    }
+}
+
+@media( max-width:1024px){
+     .cont{
+        max-width: 768px;
+        background-color: #2B3844;
+
+    }
+}
+
+@media( max-width:768px){
+    .cont{
+        max-width: 576px;
+    }
+}
+
+@media( max-width:576px){
+    .cont{
+        max-width: 320px;
+        
+    }
+}
